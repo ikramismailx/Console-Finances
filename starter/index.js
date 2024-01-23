@@ -100,3 +100,12 @@ for (var i = 0; i <finances.length; i++) {
   totalAmount += finances[i][1];
 }
 console.log('Total Amount =  $' + totalAmount)
+
+// Average Change
+var totalChange = 0;
+for (var i = 1; i < finances.length; i++) {
+  var totalChange = finances[i][1] - finances[i -1][1];
+}
+var averageChange = totalChange / (finances.length - 1)
+
+console.log ("Average Change =" + averageChange)
