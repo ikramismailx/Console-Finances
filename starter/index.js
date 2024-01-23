@@ -108,4 +108,5 @@ for (var i = 1; i < finances.length; i++) {
 }
 var averageChange = totalChange / (finances.length - 1)
 
-console.log ("Average Change =" + averageChange)
+console.log ("Average Change =" + averageChange.toFixed(2));
+
