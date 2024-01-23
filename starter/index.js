@@ -121,3 +121,14 @@ for (var i = 1; i < finances.length; i++) {
   }
 }
 console.log("Greatest Increase in Profits/Losses:", increaseMonth, "(" + "$" + maxIncrease + ")");
+
+var maxDecrease = 0
+var decreaseMonth = '';
+for (var i = 1; i < finances.length; i++) {
+  var decrease = finances[i][1] - finances[i - 1][1];
+  if (decrease < maxDecrease) {
+    maxDecrease = decrease;
+    decreaseMonth = finances[i][0];
+  }
+}
+console.log("Greatest decrease in Profits/Losses:", decreaseMonth, "(" + "$" + maxDecrease + ")");
