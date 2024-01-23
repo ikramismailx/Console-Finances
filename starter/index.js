@@ -97,6 +97,6 @@ console.log(`Total months: ${totalMonths}`)
 // Net Total Amount
 var totalAmount = 0
 for (var i = 0; i <finances.length; i++) {
-  totalAmount += finances.length[i][1]
+  totalAmount += finances[i][1];
 }
 console.log('Total Amount =  $' + totalAmount)
