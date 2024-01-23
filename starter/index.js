@@ -99,3 +99,4 @@ var totalAmount = 0
 for (var i = 1; i <finances.length; i++) {
   totalAmount += finances.length[i][1]
 }
+console.log('Total Amount =  $' + totalAmount)
