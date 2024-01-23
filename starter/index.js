@@ -89,3 +89,8 @@ var finances = [
 
 // Title in Console
 console.log("Financial Analysis\n------------------")
+
+//Total Months
+var totalMonths = finances.length
+console.log(`Total months: ${totalMonths}`)
+
