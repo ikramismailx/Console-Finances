@@ -41,7 +41,7 @@ Open the index.html file in your web browser to view the webpage and check the c
 # Usage
 The console should present the following:
 
-![screenshot of webpage]()
+![screenshot of webpage](/Console%20screenshot.png)
 
 # Contributing
 
