@@ -27,7 +27,7 @@ To get a copy of this project up and running on your local machine, follow these
 
 Clone this repository to your local machine using git clone:
 ```
-git clone 'git@github.com:ikramismailx/Console-Finances.git'
+git clone git@github.com:ikramismailx/Console-Finances.git
 ```
 
 Navigate to the project directory:
@@ -49,4 +49,4 @@ I welcome contributions and feedback! If you have suggestions for improvements, 
 
 # License
 
-This project is licensed under the [MIT]() License. You are free to use, modify, and distribute it, as long as you include the appropriate attribution and adhere to the terms of the license.
+This project is licensed under the [MIT](https://github.com/ikramismailx/Console-Finances/blob/main/LICENSE) License. You are free to use, modify, and distribute it, as long as you include the appropriate attribution and adhere to the terms of the license.
